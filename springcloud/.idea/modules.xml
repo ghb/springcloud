@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-consumer-feign/spring-consumer-feign.iml" filepath="$PROJECT_DIR$/spring-consumer-feign/spring-consumer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-consumer-ribbon/spring-consumer-ribbon.iml" filepath="$PROJECT_DIR$/spring-consumer-ribbon/spring-consumer-ribbon.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-config-server/springcloud-config-server.iml" filepath="$PROJECT_DIR$/springcloud-config-server/springcloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-dao/springcloud-dao.iml" filepath="$PROJECT_DIR$/springcloud-dao/springcloud-dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" filepath="$PROJECT_DIR$/springcloud-eureka-server/springcloud-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-model/springcloud-model.iml" filepath="$PROJECT_DIR$/springcloud-model/springcloud-model.iml" />

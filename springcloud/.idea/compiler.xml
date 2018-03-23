@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-consumer-feign" />
         <module name="spring-consumer-ribbon" />
+        <module name="springcloud-config-server" />
         <module name="springcloud-dao" />
         <module name="springcloud-eureka-server" />
         <module name="springcloud-model" />
@@ -20,6 +21,7 @@
       <module name="spring-consumer-feign" target="1.5" />
       <module name="spring-consumer-ribbon" target="1.5" />
       <module name="springcloud" target="1.5" />
+      <module name="springcloud-config-server" target="1.5" />
       <module name="springcloud-consumer-feign" target="1.5" />
       <module name="springcloud-dao" target="1.5" />
       <module name="springcloud-eureka-server" target="1.5" />
