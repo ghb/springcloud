@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-consumer-feign" />
+        <module name="spring-consumer-ribbon" />
+        <module name="springcloud-dao" />
+        <module name="springcloud-eureka-server" />
+        <module name="springcloud-model" />
+        <module name="springcloud-provider" />
+        <module name="springcloud-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo1" target="1.8" />
+      <module name="spring-consumer-feign" target="1.5" />
+      <module name="spring-consumer-ribbon" target="1.5" />
+      <module name="springcloud" target="1.5" />
+      <module name="springcloud-consumer-feign" target="1.5" />
+      <module name="springcloud-dao" target="1.5" />
+      <module name="springcloud-eureka-server" target="1.5" />
+      <module name="springcloud-model" target="1.5" />
+      <module name="springcloud-provider" target="1.5" />
+      <module name="springcloud-zuul" target="1.5" />
+      <module name="springcloudmodel" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
