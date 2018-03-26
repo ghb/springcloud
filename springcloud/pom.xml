@@ -44,16 +44,29 @@
         </plugins>
     </build>
 
-    <repositories>
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>spring-milestones</id>-->
+            <!--<name>Spring Milestones</name>-->
+            <!--<url>https://repo.spring.io/milestone</url>-->
+            <!--<snapshots>-->
+                <!--<enabled>false</enabled>-->
+            <!--</snapshots>-->
+        <!--</repository>-->
+    <!--</repositories>-->
+
+    <distributionManagement>
         <repository>
-            <id>spring-milestones</id>
-            <name>Spring Milestones</name>
-            <url>https://repo.spring.io/milestone</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://maven.scn.weilian.cn:8082/nexus/content/repositories/releases</url>
         </repository>
-    </repositories>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://maven.scn.weilian.cn:8082/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <modules>
         <module>spring-consumer-ribbon</module>
@@ -63,6 +76,7 @@
         <module>springcloud-provider</module>
         <module>spring-consumer-feign</module>
         <module>springcloud-zuul</module>
+        <module>springcloud-service</module>
     </modules>
 
 </project>

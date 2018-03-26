@@ -1,9 +1,0 @@
-server:
-  port: 8761
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: false # 不向注册中心注册自己
-    fetch-registry: false # 不需要检索服务
-    eureka-server-u-r-l-context: http://localhost:${server.port}/eureka/

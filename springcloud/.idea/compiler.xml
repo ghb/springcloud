@@ -13,6 +13,8 @@
         <module name="springcloud-eureka-server" />
         <module name="springcloud-model" />
         <module name="springcloud-provider" />
+        <module name="springcloud-service" />
+        <module name="springcloud-web" />
         <module name="springcloud-zuul" />
       </profile>
     </annotationProcessing>
@@ -27,6 +29,8 @@
       <module name="springcloud-eureka-server" target="1.5" />
       <module name="springcloud-model" target="1.5" />
       <module name="springcloud-provider" target="1.5" />
+      <module name="springcloud-service" target="1.5" />
+      <module name="springcloud-web" target="1.8" />
       <module name="springcloud-zuul" target="1.5" />
       <module name="springcloudmodel" target="1.5" />
     </bytecodeTargetLevel>

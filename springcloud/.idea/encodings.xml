@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/springcloud-eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud-web" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-zuul" charset="UTF-8" />
   </component>
 </project>
